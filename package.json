@@ -1,0 +1,28 @@
+{
+  "name": "frankproject",
+  "version": "1.0.0",
+  "description": "API for Authentificate,CRUD",
+  "main": "server.js ",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soultakpara/frankProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soultakpara/frankProject/issues"
+  },
+  "homepage": "https://github.com/soultakpara/frankProject#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.19.0",
+    "mongoose": "^8.18.1",
+    "mongoose-unique-validator": "^4.0.1",
+    "nodemon": "^3.1.10"
+  }
+}
