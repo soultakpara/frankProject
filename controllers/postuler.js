@@ -8,8 +8,7 @@ exports.createPostuler = (req, res, next) => {
     offreEmploiId: req.body.offreEmploiId,
   });  
 
-  postuler
-    .save()
+  postuler.save()
     .then(() => res.status(201).json({ message: 'Postulation crée avec succes' }))
     .catch(error => res.status(400).json({ error }));
 };

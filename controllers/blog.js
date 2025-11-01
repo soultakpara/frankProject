@@ -1,7 +1,7 @@
-const blog = require('../models/blog');
+const Blog = require('../models/blog');
 
 exports.createBlog =  (req, res) => {
-  const blog = new blog({
+  const blog = new Blog({
     image: req.body.image,
     titre: req.body.titre,
     date: req.body.date,

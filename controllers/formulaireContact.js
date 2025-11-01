@@ -1,7 +1,7 @@
-const formulaireContact = require('../models/formulaireContact');
+const FormulaireContact = require('../models/formulaireContact');
 
 exports.createFormulaireContact =  (req, res) => {
-  const formulaireContact = new formulaireContact({
+  const formulaireContact = new FormulaireContact({
     nom: req.body.nom,
     email: req.body.email,
     message: req.body.message,
